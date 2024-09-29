@@ -1,0 +1,369 @@
+/*SLIDER PAGE*/
+.section .sc_planet_main_outer{
+	transform: translateX(20vw);
+	opacity: 0;
+	top: 20vh;
+	transition: transform 0ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms, opacity 300ms linear 0ms, top 300ms linear;
+}
+.section.anm .sc_planet_main_outer{
+	transform: translateX(0px);
+	opacity: 1;
+	top: 0;
+	transition: transform 1500ms cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 800ms linear, top 0ms linear;
+}
+.section .sc_sect_cntnt_anm{
+	opacity: 0;
+	transform: translateY(200px);
+	transition: all 300ms linear 0ms;
+}
+.section.anm .sc_sect_cntnt_anm{
+	opacity: 1;
+	transform: translateY(0);
+	transition: all 1200ms ease-in-out 700ms;
+}
+.section .sc_planet_main_object{
+	border: rgba(255, 255, 255, 0) 1px solid;
+	transition: all 0ms linear 400ms;
+}
+.section.anm .sc_planet_main_object{
+	border: rgba(255, 255, 255, 0.5) 1px solid;
+	transition: all 400ms linear 1500ms;
+}
+.section .sc_planet_main_object_ring_circle{
+	opacity: 0;
+	transform: rotate(0) translate(0px, -348.5px);
+	transition: transform 0ms cubic-bezier(0.215, 0.61, 0.355, 1) 400ms, opacity 0ms linear 400ms;
+}
+.section.anm .sc_planet_main_object_ring_circle{
+	opacity: 1;
+	transform: rotate(-441deg) translate(0px, -348.5px);
+	transition: transform 2200ms cubic-bezier(0.215, 0.61, 0.355, 1) 1900ms, opacity 0ms linear 1900ms;
+}
+.section .sc_planet_main_object_ring_circle_content{
+	opacity: 0;
+	transition: all 0ms linear 400ms;
+}
+.section.anm .sc_planet_main_object_ring_circle_content{
+	opacity: 1;
+	transition: all 300ms linear 4100ms;
+}
+.section .sc_planet_main_text{
+	opacity: 0;
+	transition: all 0ms linear 400ms;
+}
+.section.anm .sc_planet_main_text{
+	opacity: 1;
+	transition: all 300ms linear 4400ms;
+}
+.section .sc_planet_main_object_ring_circle{
+	opacity: 0;
+	transition: transform 0ms linear 400ms, opacity 0ms linear 400ms;
+}
+.section.anm .sc_planet_main_object_ring_circle{
+	opacity: 1;
+	transition: transform 2200ms cubic-bezier(0.215, 0.61, 0.355, 1) 1900ms, opacity 0ms linear 1900ms;
+}
+.section .sc_planet_main_object_ring_circle.th_planet_main_object_ring_circle,
+.section .sc_planet_main_object_ring_circle.fr_planet_main_object_ring_circle{
+	transform: rotate(0) translate(0px, -382px);
+}
+.section.anm .sc_planet_main_object_ring_circle.th_planet_main_object_ring_circle{
+	transform: rotate(-455deg) translate(0px, -382px);
+}
+.section.anm .sc_planet_main_object_ring_circle.fr_planet_main_object_ring_circle{
+	transform: rotate(-447deg) translate(0px, -382px);
+}
+.section .sc_planet_main_object_ring_circle.ff_planet_main_object_ring_circle{
+	transform: rotate(0) translate(0px, -468px);
+}
+.section.anm .sc_planet_main_object_ring_circle.ff_planet_main_object_ring_circle{
+	transform: rotate(-448deg) translate(0px, -468px);
+}
+.section .sc_planet_main_object_ring_circle.sx_planet_main_object_ring_circle{
+	transform: rotate(0) translate(0px, -425.5px);
+}
+.section.anm .sc_planet_main_object_ring_circle.sx_planet_main_object_ring_circle{
+	transform: rotate(-453deg) translate(0px, -425.5px);
+}
+.section .sc_planet_main_object_ring_circle.sv_planet_main_object_ring_circle{
+	transform: rotate(0) translate(0px, -373.5px);
+}
+.section.anm .sc_planet_main_object_ring_circle.sv_planet_main_object_ring_circle{
+	transform: rotate(-453deg) translate(0px, -373.5px);
+}
+.section .sc_planet_main_object_ring_circle.ei_planet_main_object_ring_circle{
+	transform: rotate(0) translate(0px, -382px);
+}
+.section.anm .sc_planet_main_object_ring_circle.ei_planet_main_object_ring_circle{
+	transform: rotate(-452deg) translate(0px, -382px);
+}
+.section .sc_planet_main_object_ring_circle.ni_planet_main_object_ring_circle{
+	transform: rotate(0) translate(0px, -373px);
+}
+.section.anm .sc_planet_main_object_ring_circle.ni_planet_main_object_ring_circle{
+	transform: rotate(-458deg) translate(0px, -373px)
+}
+.section .fr_bg_mr_outer_anm{
+	transform: translateX(50vw);
+	opacity: 0;
+	transition: all 0ms linear 400ms;
+}
+.section.anm .fr_bg_mr_outer_anm{
+	transform: translateX(0);
+	opacity: 1;
+	transition: transform 2000ms cubic-bezier(0.645, 0.045, 0.355, 1) 300ms, opacity 1200ms linear 300ms;
+}
+.section .sv_bg_mr_outer_anm{
+	transform: translateX(50vw);
+	opacity: 0;
+	transition: all 0ms linear 400ms;
+}
+.section.anm .sv_bg_mr_outer_anm{
+	transform: translateX(0);
+	opacity: 1;
+	transition: transform 2000ms cubic-bezier(0.645, 0.045, 0.355, 1) 300ms, opacity 1200ms linear 300ms;
+}
+/*SLIDER SLIDE*/
+.fp-slidesContainer{
+	transition: all 0ms linear 900ms !important;
+}
+.fp-slidesContainer .slide .sc_sect_cntnt_atmo_bg{
+	width: 0px;
+	transition: width 900ms cubic-bezier(0.645, 0.045, 0.355, 1) 0ms;
+}
+.fp-slidesContainer .slide.active .sc_sect_cntnt_atmo_bg{
+	width: 50%;
+	transition: width 1400ms cubic-bezier(0.645, 0.045, 0.355, 1) 900ms;
+}
+.fp-slidesContainer .slide .sc_planet_main,
+.fp-slidesContainer .slide .fr_bg_mr_outer{
+	transform: translateX(50vw);
+	transition: transform 700ms linear 0ms;
+}
+.fp-slidesContainer .slide.active .sc_planet_main,
+.fp-slidesContainer .slide.active .fr_bg_mr_outer{
+	transform: translateX(0);
+	transition: transform 1200ms cubic-bezier(0.645, 0.045, 0.355, 1) 900ms;
+}
+
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt_atmo,
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt_atmo_comp,
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt_atmo_more,
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt,
+.fp-slidesContainer .slide.outright .sc_sect_cntnt_atmo,
+.fp-slidesContainer .slide.outright .sc_sect_cntnt_atmo_comp,
+.fp-slidesContainer .slide.outright .sc_sect_cntnt_atmo_more,
+.fp-slidesContainer .slide.outright .sc_sect_cntnt{
+	opacity: 1;
+}
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt_atmo,
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt_atmo_comp,
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt_atmo_more,
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt,
+.fp-slidesContainer .slide.inright .sc_sect_cntnt_atmo,
+.fp-slidesContainer .slide.inright .sc_sect_cntnt_atmo_comp,
+.fp-slidesContainer .slide.inright .sc_sect_cntnt_atmo_more,
+.fp-slidesContainer .slide.inright .sc_sect_cntnt{
+	opacity: 0;
+}
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt_atmo{
+	animation: outleft 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 0ms forwards;
+}
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt_atmo_comp{
+	animation: outleft 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 100ms forwards;
+}
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt_atmo_more,
+.fp-slidesContainer .slide.outleft .sc_sect_cntnt{
+	animation: outleft 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 200ms forwards;
+}
+
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt_atmo,
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt{
+	animation: inleft 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 900ms forwards;
+}
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt_atmo_comp{
+	animation: inleft 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 1000ms forwards;
+}
+.fp-slidesContainer .slide.inleft .sc_sect_cntnt_atmo_more{
+	animation: inleft 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 1100ms forwards;
+}
+
+.fp-slidesContainer .slide.outright .sc_sect_cntnt_atmo{
+	animation: outright 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 200ms forwards;
+}
+.fp-slidesContainer .slide.outright .sc_sect_cntnt_atmo_comp{
+	animation: outright 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 100ms forwards;
+}
+.fp-slidesContainer .slide.outright .sc_sect_cntnt_atmo_more,
+.fp-slidesContainer .slide.outright .sc_sect_cntnt{
+	animation: outright 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 0ms forwards;
+}
+
+.fp-slidesContainer .slide.inright .sc_sect_cntnt_atmo,
+.fp-slidesContainer .slide.inright .sc_sect_cntnt{
+	animation: inright 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 1100ms forwards;
+}
+.fp-slidesContainer .slide.inright .sc_sect_cntnt_atmo_comp{
+	animation: inright 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 1000ms forwards;
+}
+.fp-slidesContainer .slide.inright .sc_sect_cntnt_atmo_more{
+	animation: inright 700ms cubic-bezier(0.645, 0.045, 0.355, 1) 900ms forwards;
+}
+/*OTHER*/
+.section.active .ft_planets{
+	transform: translateY(0px);
+	opacity: 1;
+}
+.section .ft_planets{
+	transform: translateY(-400px);
+	opacity: 0;
+	
+	transition: all 500ms linear 0s;
+}
+.main_menu_btn a span{
+	transition: margin 300ms linear;
+}
+.main_menu_btn.open a span:nth-of-type(1) {
+    margin: 24px 0 0 24px;
+}
+.main_menu_btn.open a span:nth-of-type(2) {
+    margin: 27px 0 0 24px;
+}
+.main_menu_btn.open a span:nth-of-type(3) {
+    margin: 30px 0 0 24px;
+}
+.main_menu_btn.open a span:nth-of-type(4) {
+    margin: 24px 0 0 27px;
+}
+.main_menu_btn.open a span:nth-of-type(6) {
+    margin: 30px 0 0 27px;
+}
+.main_menu_btn.open a span:nth-of-type(7) {
+    margin: 24px 0 0 30px;
+}
+.main_menu_btn.open a span:nth-of-type(8) {
+    margin: 27px 0 0 30px;
+}
+.main_menu_btn.open a span:nth-of-type(9) {
+    margin: 30px 0 0 30px;
+}
+.main_menu .main_menu_in li{
+	opacity: 0;
+	transform: translateX(200px);
+}
+.main_menu.open .main_menu_in li{
+	opacity: 1;
+	transform: translateX(0);
+}
+.main_menu.open .main_menu_in li:nth-of-type(1){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms, opacity 500ms linear 300ms;
+}
+.main_menu.open .main_menu_in li:nth-of-type(5){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 450ms, opacity 500ms linear 450ms;
+}
+.main_menu.open .main_menu_in li:nth-of-type(2){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 600ms, opacity 500ms linear 600ms;
+}
+.main_menu.open .main_menu_in li:nth-of-type(6){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 750ms, opacity 500ms linear 750ms;
+}
+.main_menu.open .main_menu_in li:nth-of-type(3){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 900ms, opacity 500ms linear 900ms;
+}
+.main_menu.open .main_menu_in li:nth-of-type(7){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1050ms, opacity 500ms linear 1050ms;
+}
+.main_menu.open .main_menu_in li:nth-of-type(4){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1200ms, opacity 500ms linear 1200ms;
+}
+.main_menu.open .main_menu_in li:nth-of-type(8){
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 1350ms, opacity 500ms linear 1350ms;
+}
+/*LOADED PAGE*/
+.wrapper .space_canvas_outer{
+	opacity: 0;
+}
+.wrapper.loaded .space_canvas_outer{
+	opacity: 1;
+	transition: transform 1000ms linear 400ms, opacity 1000ms linear 400ms;
+}
+.wrapper .ft_planets_on_inner{
+	opacity: 0;
+	transform: translateY(40vh);
+	transition: transform 4000ms cubic-bezier(0.18, 0.89, 0.6, 1.28) 1400ms, opacity 500ms linear 1400ms;
+}
+.wrapper .ft_planets_tw_inner{
+	opacity: 0;
+	transform: translateY(-80vh);
+	transition: transform 4000ms cubic-bezier(0.18, 0.89, 0.6, 1.28) 1400ms, opacity 500ms linear 1400ms;
+}
+.wrapper .ft_planets_th_inner{
+	opacity: 0;
+	transform: translateY(-40vh);
+	transition: transform 4000ms cubic-bezier(0.18, 0.89, 0.6, 1.28) 1400ms, opacity 500ms linear 1400ms;
+}
+.wrapper.loaded .ft_planets_on_inner,
+.wrapper.loaded .ft_planets_tw_inner,
+.wrapper.loaded .ft_planets_th_inner{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.wrapper .fullpage .section:nth-of-type(1) .grid_lines{
+	opacity: 0;
+	transition: opacity 500ms linear 5200ms;
+}
+.wrapper.loaded .fullpage .section:nth-of-type(1) .grid_lines{
+	opacity: 1;
+	transform: translateY(0);
+}
+.wrapper .ft_sect_cntnt{
+	opacity: 0;
+	transition: transform 700ms linear 5700ms, opacity 700ms linear 5700ms, margin 500ms linear 0s;
+}
+.wrapper.loaded .ft_sect_cntnt{
+	opacity: 1;
+}
+.wrapper .ft_sect_cntnt_htxt span:nth-of-type(2){
+	width: 0;
+	transition: width 2000ms linear 6400ms;
+}
+.wrapper .ft_sect_cntnt_ptxt span:nth-of-type(2){
+	width: 0;
+	transition: width 2000ms linear 7400ms;
+}
+.wrapper.loaded .ft_sect_cntnt_htxt span:nth-of-type(2),
+.wrapper.loaded .ft_sect_cntnt_ptxt span:nth-of-type(2){
+	width: 100%;
+}
+.wrapper .ft_sect_cntnt_txt_inner{
+	opacity: 0;
+	transform: translateY(40px);
+	transition: opacity 600ms linear 8400ms, transform 600ms linear 8400ms;
+}
+.wrapper.loaded .ft_sect_cntnt_txt_inner{
+	opacity: 1;
+	transform: translateY(0);
+}
+.wrapper .main_menu_btn_outer,
+.wrapper .ft_sect_cntnt_mouse,
+.wrapper .ftr_copy,
+.wrapper .nav{
+	opacity: 0;
+	transition: opacity 500ms linear 9400ms, transform 500ms linear 9400ms;
+}
+.wrapper .ft_sect_cntnt_mouse{
+	transform: translateY(40px);
+}
+.wrapper .nav{
+	transform: translateX(-40px);
+}
+.wrapper.loaded .main_menu_btn_outer,
+.wrapper.loaded .ft_sect_cntnt_mouse,
+.wrapper.loaded .ftr_copy,
+.wrapper.loaded .nav{
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+

@@ -1,0 +1,10 @@
+@media (max-width: 1678px) {
+	.sc_planet_main_object_ring_circle{
+		display: none;
+	}
+}
+@media (max-width: 1200px) {
+	.sc_planet_main_text{
+		display: none;
+	}
+}
